@@ -1,0 +1,4 @@
+'C1aUpper.c1a_upper_verified' depends on axioms: [propext, Classical.choice, Quot.sound]
+C1aUpper/Audit.lean:2:0: warning: This file has no module docstring (`/-! ... -/`). Add one after the imports to document the file.
+
+Note: This linter can be disabled with `set_option linter.style.moduleDocstring false`

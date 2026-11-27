@@ -1,0 +1,58 @@
+{
+  "sha256": "e413bfe3ca5248ebcb83474c19d432e265738c16c698d1054d4300b0eb294112",
+  "N": 524288,
+  "sum_a": "587939469941586496906950733",
+  "max_conv": "495367350486694928793537726424755428998792823884",
+  "first_peak_lag": 866028,
+  "peak_count": 1,
+  "numerator": "519430314903936621654612615023564348717838184096989184",
+  "denominator": "345672820315193691904670643895864696282762768089237289",
+  "decimal": "1.50266461340612841490005015303657763472693313339374633323946",
+  "primes": [
+    998244353,
+    1004535809,
+    469762049,
+    167772161,
+    1224736769,
+    754974721
+  ],
+  "comparison_pr": "https://github.com/teorth/optimizationproblems/pull/418",
+  "improvement_over_pr418": "3.323140739602455424734162643724430842032992715910975204E-11",
+  "improvement_over_single_cell": "3.263285324255851743966013231495565859928199059066871727E-11",
+  "gain_relative_to_single_cell": "55.51946670755192173693787036584286727739682431490473695",
+  "cross_checked_with": [
+    "Kronecker integer squaring",
+    "modular NTT and CRT"
+  ],
+  "lean": {
+    "inputs": {
+      "witness_sha256": "e413bfe3ca5248ebcb83474c19d432e265738c16c698d1054d4300b0eb294112",
+      "base_sha256": null,
+      "data_sha256": "5584bee76af7002c23d988537bedd5e4e8f806ed20456324eb3a54b9101ccb84",
+      "theorem_sha256": "c293bd53e2cd6889835250b3232ee8606bfde342d0902f7ee8a3ed74ae8221b2",
+      "generic_sha256": "36703603442f0cd6a9ec4def216f8c15d525d7e7cbf7132587ab28215f46e778",
+      "guard_sha256": "1dc90ce46bf65274f8c2cab7dabaec950190fe86824274c505ae751fd9066979",
+      "guard_bridge_sha256": "22387c94478c1b01249eea76d09535a266a68904aa173368728ad5862ebae4e0",
+      "fact_hashes": {
+        "CheckSize": "ad35a0f6014c072a0c3a7f6a3e37bec4edabceca694a43968d7980f7db7517b6",
+        "CheckHeights": "60b6fbc00b4f234af0d63bcef4ef97254b8d47a308f489bb8f62869b52dc7274",
+        "CheckSum": "e326c17b5eaa467340b7bf47e5e2aaca7eac0e378b2f9d6ae53020eef00271ab",
+        "CheckSquare": "9d4f0baea42c97bd64b764f58fc5e564c6d305ab357b05b3030a719c33656e65",
+        "CheckGuard": "07c00a5fd7c93440d51c10e4e94102b951d6bd50a1fc3bf4941af983f6e55679"
+      },
+      "N": 524288,
+      "sum": "587939469941586496906950733",
+      "max_conv": "495367350486694928793537726424755428998792823884",
+      "numerator": "519430314903936621654612615023564348717838184096989184",
+      "denominator": "345672820315193691904670643895864696282762768089237289"
+    },
+    "status": "verified",
+    "axioms": {
+      "C1aUpper.c1a_upper_verified": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    }
+  }
+}

@@ -1,0 +1,5 @@
+'C1aUpper.kron_cert' depends on axioms: [propext, Classical.choice, Quot.sound]
+C1aUpper/AuditGeneric.lean:2:0: warning: This file has no module docstring (`/-! ... -/`). Add one after the imports to document the file.
+
+Note: This linter can be disabled with `set_option linter.style.moduleDocstring false`
+'C1aUpper.C1a_le_of_steps' depends on axioms: [propext, Classical.choice, Quot.sound]
